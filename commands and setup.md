@@ -49,6 +49,11 @@ Alternative way is to go the particular app directory and run the following comm
 pnpm install package_name
 ```
 
+## Installing a particular version of a package
+```
+pnpm install package_name@version
+```
+
 ## ESlint
 ```
 pnpm run lint
