@@ -39,9 +39,14 @@ pnpm run dev
 ```
 
 ## Installing dependencies in a particular Directory
+
 Sometimes there may be a case where you want to install a directory to a particular app. The command for that is 
 ```
-npm install package_name --workspace=app1 --workspace=app2 --save-dev
+pnpm install package_name --workspace=app1 --workspace=app2 --save-dev
+```
+Alternative way is to go the particular app directory and run the following command
+```
+pnpm install package_name
 ```
 
 ## ESlint
