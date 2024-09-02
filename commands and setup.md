@@ -49,7 +49,7 @@ npm install package_name --workspace=app1 --workspace=app2 --save-dev
 pnpm run lint
 ```
 
-## Code Formating
+## Code Formating (Prettier)
 ```
 pnpm run format
 ```
